@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "dependencies": {
+    "hyperdb": "^3.5.0"
+  },
+  "devDependencies": {
+    "random-access-memory": "^3.0.0",
+    "standard": "^11.0.1",
+    "tape": "^4.9.1"
+  }
+}
