@@ -1,4 +1,8 @@
 {
+  "name": "hyperdb-model",
+  "version": "1.0.0",
+  "description": "Basic model wrapper on top of hyperdb",
+  "main": "index.js",
   "scripts": {
     "test": "standard && tape test.js"
   },
@@ -9,5 +13,18 @@
     "random-access-memory": "^3.0.0",
     "standard": "^11.0.1",
     "tape": "^4.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brechtcs/hyperdb-model.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brechtcs/hyperdb-model/issues"
+  },
+  "keywords": [
+    "hyperdb",
+    "model"
+  ],
+  "author": "Brecht Savelkoul <brecht.savelkoul@gmail.com>",
+  "license": "Apache-2.0"
 }

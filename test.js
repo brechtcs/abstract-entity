@@ -1,10 +1,10 @@
+var createModel = require('./')
 var hyperdb = require('hyperdb')
-var hypermodel = require('./')
 var ram = require('random-access-memory')
 var test = require('tape')
 
 test('basic crud', async function (t) {
-  var Model = hypermodel(ram, {valueEncoding: 'json'})
+  var Model = createModel(ram, {valueEncoding: 'json'})
 
   class Test extends Model {
     get value () {
@@ -30,7 +30,7 @@ test('basic crud', async function (t) {
 
 test('pass in hyperdb instance', async function (t) {
   var db = hyperdb(ram, {valueEncoding: 'json'})
-  var Model = hypermodel(db)
+  var Model = createModel(db)
 
   class Test extends Model {
     get value () {
