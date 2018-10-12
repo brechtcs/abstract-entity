@@ -1,11 +1,11 @@
 var hyperdb = require('hyperdb')
 
-module.exports = function (db, opts) {
+module.exports.createRepository = function (db, opts) {
   if (db.constructor.name !== 'HyperDB') {
     db = hyperdb(db, opts)
   }
 
-  return class Model {
+  return class Entity {
     static get prefix () {
       return this.name.toLowerCase()
     }

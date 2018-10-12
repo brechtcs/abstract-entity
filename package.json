@@ -1,6 +1,6 @@
 {
-  "name": "hyperdb-model",
-  "version": "1.0.0",
+  "name": "abstract-entity",
+  "version": "0.1.0",
   "description": "Basic model wrapper on top of hyperdb",
   "main": "index.js",
   "scripts": {
@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brechtcs/hyperdb-model.git"
+    "url": "git+https://github.com/brechtcs/abstract-entity.git"
   },
   "bugs": {
-    "url": "https://github.com/brechtcs/hyperdb-model/issues"
+    "url": "https://github.com/brechtcs/abstract-entity/issues"
   },
   "keywords": [
     "hyperdb",
