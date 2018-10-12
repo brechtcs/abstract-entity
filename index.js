@@ -65,7 +65,7 @@ module.exports.createRepository = function (db, opts) {
 
     set nodes (nodes) {
       this.node = nodes.pop()
-      this.alt = nodes
+      this.branches = nodes
     }
   }
 }
